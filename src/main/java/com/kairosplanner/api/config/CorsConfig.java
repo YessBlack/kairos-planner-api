@@ -17,8 +17,8 @@ public class CorsConfig {
                         .allowedOrigins(
                                 "http://127.0.0.1:5500",
                                 "http://localhost:5500",
-                                "https://yessblack.github.io/Kairos-Planner/",
-                                "https://kairos-planner-drab.vercel.app/"
+                                "https://yessblack.github.io",
+                                "https://kairos-planner-drab.vercel.app"
                         )
                         .allowedMethods("GET", "POST", "PUT", "DELETE", "OPTIONS")
                         .allowedHeaders("*");
